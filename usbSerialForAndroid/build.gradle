@@ -24,11 +24,10 @@ android {
 }
 
 dependencies {
-    implementation "androidx.annotation:annotation:1.3.0"
-    implementation 'androidx.test:core:1.4.0'
+    implementation 'com.android.support:support-annotations:28.0.0'
     testImplementation 'junit:junit:4.13.2'
     testImplementation 'org.mockito:mockito-core:1.10.19'
-    androidTestImplementation 'androidx.test:runner:1.4.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'commons-net:commons-net:3.8.0'
     androidTestImplementation 'org.apache.commons:commons-lang3:3.11'
 }
@@ -42,9 +41,9 @@ project.afterEvaluate {
                 artifact androidSourcesJar
 
                 // values used for local maven repo, jitpack uses github release:
-                groupId 'com.github.mik3y'
-                artifactId 'usb-serial-for-android'
-                version 'v3.5.0beta'
+                groupId 'com.github.techisfun'
+                artifactId 'usb-serial-for-android-support'
+                version '3.5.0-beta'
             }
         }
     }

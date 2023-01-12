@@ -1,7 +1,8 @@
-[![Actions Status](https://github.com/mik3y/usb-serial-for-android/workflows/build/badge.svg)](https://github.com/mik3y/usb-serial-for-android/actions)
-[![Jitpack](https://jitpack.io/v/mik3y/usb-serial-for-android.svg)](https://jitpack.io/#mik3y/usb-serial-for-android)
-[![Codacy](https://app.codacy.com/project/badge/Grade/ef799bba8a7343818af0a90eba3ecb46)](https://www.codacy.com/gh/kai-morich/usb-serial-for-android-mik3y/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kai-morich/usb-serial-for-android-mik3y&amp;utm_campaign=Badge_Grade)
-[![codecov](https://codecov.io/gh/mik3y/usb-serial-for-android/branch/master/graph/badge.svg)](https://codecov.io/gh/mik3y/usb-serial-for-android)
+[![Actions Status](https://github.com/techisfun/usb-serial-for-android/workflows/build/badge.svg)](https://github.com/mik3y/usb-serial-for-android/actions)
+[![Jitpack](https://jitpack.io/v/techisfun/usb-serial-for-android.svg)](https://jitpack.io/#mik3y/usb-serial-for-android)
+
+[//]: # ([![Codacy]&#40;https://app.codacy.com/project/badge/Grade/ef799bba8a7343818af0a90eba3ecb46&#41;]&#40;https://www.codacy.com/gh/kai-morich/usb-serial-for-android-mik3y/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kai-morich/usb-serial-for-android-mik3y&amp;utm_campaign=Badge_Grade&#41;)
+[//]: # ([![codecov]&#40;https://codecov.io/gh/mik3y/usb-serial-for-android/branch/master/graph/badge.svg&#41;]&#40;https://codecov.io/gh/mik3y/usb-serial-for-android&#41;)
 
 # usb-serial-for-android
 
@@ -29,7 +30,7 @@ allprojects {
 Add library to dependencies
 ```gradle
 dependencies {
-    implementation 'com.github.mik3y:usb-serial-for-android:3.4.6'
+    implementation 'com.github.techisfun:usb-serial-for-android:3.5.0-beta'
 }
 ```
 

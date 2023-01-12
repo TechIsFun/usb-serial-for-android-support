@@ -11,7 +11,7 @@ import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbEndpoint;
 import android.hardware.usb.UsbManager;
 
-import androidx.annotation.IntDef;
+import android.support.annotation.IntDef;
 
 import java.io.Closeable;
 import java.io.IOException;
